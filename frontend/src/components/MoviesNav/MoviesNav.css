@@ -1,0 +1,12 @@
+@media screen and (min-width: 1279px) {
+  .link_movies {
+    font-size: 13px;
+    line-height: 1.38;
+    color: #000;
+  }
+
+  .link_order_first {
+    padding-right: 16px;
+    font-weight: 500;
+  }
+}

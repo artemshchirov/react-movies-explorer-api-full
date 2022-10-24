@@ -1,0 +1,136 @@
+.burger-btn {
+  position: fixed;
+  top: 27.5px;
+  right: 23px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.burger-btn__row {
+  margin-top: 6.5px;
+  width: 22px;
+  height: 2.5px;
+  display: flex;
+  background-color: #000;
+  transform-origin: -1.5px;
+  transition: all 0.2s linear;
+}
+
+.burger-btn__row:first-of-type {
+  margin-top: 0;
+}
+
+.burger-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 156px 0 90px 0;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #fff;
+  z-index: 9;
+}
+
+.opened.burger-menu {
+  display: flex;
+}
+
+.burger-menu__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.burger-menu__item {
+  padding: 24px 0 4px;
+  max-width: max-content;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  border-bottom: 2px solid transparent;
+}
+
+.burger-menu__item:first-of-type {
+  padding-top: 0;
+}
+
+.burger-menu__link {
+  text-decoration: none;
+  color: #000;
+  transition: border-bottom 0.05s linear;
+}
+
+.burger-menu__link:hover {
+  border-bottom: 2px solid #000;
+}
+
+.burger-menu__account-btn {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 11px 10px;
+  width: 100px;
+  height: 32px;
+  text-decoration: none;
+  text-align: start;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 0.92;
+  color: #222222;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 40px;
+}
+
+.burger-menu__account-icon {
+  margin-left: 7px;
+  min-width: 26px;
+  min-height: 26px;
+  background-color: #f5f5f5;
+  border-radius: 50px;
+  background-image: url('../../images/account-btn-icon-burger.svg');
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center;
+}
+
+@media screen and (min-width: 767px) {
+  .burger-btn {
+    top: 26px;
+    right: 38px;
+  }
+
+  .burger-menu {
+    max-width: 520px;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+  }
+
+  .overlay.visible {
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+}

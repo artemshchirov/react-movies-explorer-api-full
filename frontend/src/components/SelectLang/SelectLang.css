@@ -1,0 +1,12 @@
+.select-lang {
+  margin: 0 auto 0 29px;
+  padding: 4px 2px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 0.92;
+  border-radius: 3px;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.08);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

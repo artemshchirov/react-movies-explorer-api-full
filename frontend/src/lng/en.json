@@ -1,0 +1,72 @@
+{
+  "link_type_signup": "Register",
+  "link_type_signin": "Sign in",
+  "link_type_profile": "Account",
+
+  "promo__title": "Student project for the web development faculty",
+  "nav__link_about": "About project",
+  "nav__link_techs": "Stack",
+  "nav__link_profile": "Student info",
+
+  "about__subject": "Project info",
+  "about__title_1": "Graduation project consisted of\u00A0five stages",
+  "about__subtitle_1": "Setting a\u00A0plan, creating backend, page layout, adding functionality and final fixes.",
+  "about__title_2": "According to\u00A0the plan there were five weeks to\u00A0finish the project",
+  "about__subtitle_2": "Each stage had a\u00A0soft and hard deadline which needed to\u00A0be\u00A0kept in\u00A0order to\u00A0submit the project successfully",
+  "timeline__weeks_1": "1 week",
+  "timeline__weeks_2": "4 weeks",
+
+  "tech__subject": "Tech stack",
+  "techs__title": "7 technologies",
+  "techs__subtitle": "When studying on\u00A0the faculty of\u00A0web development we\u00A0learned the following technologies that were used in\u00A0the graduation project",
+
+  "profile__subject": "Student info",
+  "profile__title": "Artem",
+  "profile__subtitle": "Frontend developer. 26 y.o.",
+  "profile__description": "I\u00A0was born in\u00A0Ukraine and live in\u00A0Israel, Haifa. I\u00A0lke books, volunteering, music. Code. I\u00A0have been working on\u00A0pet projects since 2021. After completing a\u00A0course in\u00A0web development, I\u00A0am started doing freelance jobs",
+
+  "portfolio__title": "Portfolio",
+  "portfolio__link_1": "Static website",
+  "portfolio__link_2": "Adaptive layout",
+  "portfolio__link_3": "Single page application",
+
+  "footer__companies": "Learning project Yandex.Practicum х BeatFilm.",
+  "footer__copyright": "\u00A9 Ɐrtem Shchirov 2022",
+  "footer__nav-link": "Yandex.Practicum",
+
+  "form__title_name": "Name",
+  "form__title_password": "Password",
+
+  "sign_type_register": "Welcome!",
+  "form__btn_reg": "Sign up",
+  "link_sign_reg_1": "Already a member? Log in here!",
+
+  "sign_type_login": "Glad to see you!",
+  "form__btn_log": "Sign in",
+  "link_sign_log_1": "Not a member yet? Sign up here!",
+
+  "movies_search__input": "Movie",
+  "search__btn": "Search",
+  "checkbox__description": "Only short movies",
+  "movies__btn": "Show more",
+
+  "burger__link_1": "Main",
+  "burger__link_2": "Movies",
+  "burger__link_3": "Saved movies",
+  "burger__account_btn": "Account",
+
+  "not_found__subtitle": "Page not found",
+  "not_found__btn": "Go back",
+
+  "link_movies": "Movies",
+  "link_saved_movies": "Saved movies",
+
+  "title_type_profile": "Hi",
+  "account__label": "Username",
+  "account__input_name": "Your username",
+  "account__input_email": "Your E-mail",
+  "account__btn_update_1": "Edit user info",
+  "account__btn_update_2": "Editing",
+  "account__btn_logout_1": "Exit the account",
+  "account__btn_logout_2": "Exit"
+}

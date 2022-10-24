@@ -1,0 +1,39 @@
+.sign {
+  padding: 56px 30px 30px;
+}
+
+.sign__content {
+  margin: 0 auto;
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link_sign {
+  padding-top: 14px;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #a0a0a0;
+}
+
+.link_sign_type_colored {
+  padding-left: 7px;
+  color: #2be080;
+}
+
+@media screen and (min-width: 767px) {
+  .sign {
+    padding: 232px 186px;
+  }
+
+  .sign__content {
+    max-width: 396px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .sign {
+    padding: 70px 442px;
+  }
+}

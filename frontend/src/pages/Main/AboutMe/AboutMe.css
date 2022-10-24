@@ -1,0 +1,157 @@
+.profile {
+  padding: 70px 14px;
+  width: 100%;
+  color: #000;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.profile__subject {
+  margin: 0 auto;
+  padding-bottom: 28px;
+  max-width: 1140px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: -0.04em;
+  border-bottom: 1px solid #000;
+}
+
+.profile__about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__image {
+  padding-top: 60px;
+  width: 292px;
+  height: 352px;
+  object-fit: cover;
+}
+
+.profile__title {
+  margin: 0;
+  padding-top: 40px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+
+.profile__subtitle {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.profile__description {
+  margin: 0;
+  padding-top: 20px;
+  max-width: 292px;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.profile__link {
+  max-width: max-content;
+  display: inline-block;
+  padding-top: 40px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+  justify-self: end;
+  color: #000;
+}
+
+@media screen and (min-width: 767px) {
+  .profile {
+    padding: 90px 50px 91px;
+  }
+
+  .profile__wrapper {
+    padding-bottom: 23px;
+  }
+
+  .profile__subject {
+    font-size: 22px;
+  }
+
+  .profile__about {
+    padding-top: 66px;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .profile__image {
+    padding: 0 0 0 49px;
+    width: 255px;
+    height: 307px;
+  }
+
+  .profile__title {
+    padding-top: 0;
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  .profile__subtitle {
+    padding-top: 16px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .profile__description {
+    max-width: 364px;
+    padding-top: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .profile__container {
+    min-height: 307px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile__link {
+    margin-top: auto;
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .profile {
+    padding: 110px 70px 100px;
+  }
+
+  .profile__image {
+    padding-left: 270px;
+    width: 270px;
+    height: 327px;
+  }
+
+  .profile__container {
+    height: 327px;
+  }
+
+  .profile__title {
+    font-size: 50px;
+    line-height: 1.16;
+  }
+
+  .profile__subtitle {
+    padding-top: 18px;
+    font-size: 18px;
+    line-height: 1.11;
+  }
+
+  .profile__description {
+    max-width: 600px;
+    font-size: 14px;
+    line-height: 1.57;
+  }
+}

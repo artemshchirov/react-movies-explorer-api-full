@@ -1,0 +1,122 @@
+.techs {
+  padding: 70px 18px;
+  width: 100%;
+  color: #000;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.techs__subject {
+  margin: 0 auto;
+  padding-bottom: 28px;
+  max-width: 1140px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: -0.04em;
+  border-bottom: 1px solid #000;
+}
+
+.techs__title {
+  margin: 0;
+  padding-top: 60px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 0.83;
+  letter-spacing: -0.04em;
+}
+
+.techs__subtitle {
+  margin: 0 auto;
+  padding-top: 24px;
+  max-width: 292px;
+  text-align: center;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.techs__grid {
+  margin: 0 auto;
+  padding: 50px 0 0;
+  max-width: max-content;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 84px);
+  grid-template-rows: repeat(4, 57px);
+  gap: 10px;
+}
+
+.techs__grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: -0.04em;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 767px) {
+  .techs {
+    padding: 90px 50px;
+    background-color: #f5f5f5;
+  }
+
+  .techs__wrapper {
+    padding-bottom: 23px;
+  }
+
+  .techs__subject {
+    font-size: 22px;
+  }
+
+  .techs__title {
+    font-size: 50px;
+    line-height: 1.16;
+  }
+
+  .techs__subtitle {
+    padding-top: 22px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .techs__grid {
+    grid-template-columns: repeat(7, 84px);
+    grid-template-rows: repeat(1, 57px);
+    gap: 10px;
+  }
+
+  .techs__grid-item {
+    font-size: 12px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .techs {
+    padding: 100px 70px;
+  }
+
+  .techs__title {
+    line-height: 0.96;
+  }
+
+  .techs__subtitle {
+    padding-top: 26px;
+    font-size: 14px;
+    line-height: 1.18;
+  }
+
+  .techs__grid {
+    grid-template-columns: repeat(7, 90px);
+    grid-template-rows: repeat(1, 60px);
+  }
+
+  .techs__grid-item {
+    font-size: 14px;
+    line-height: 1.21;
+  }
+}

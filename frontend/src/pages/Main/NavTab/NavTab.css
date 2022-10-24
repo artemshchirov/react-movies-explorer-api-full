@@ -1,0 +1,37 @@
+.navtab {
+  width: 100%;
+  min-height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.nav__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__link {
+  padding-right: 24px;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.45;
+  text-decoration-line: underline;
+  color: #000;
+}
+
+.nav__link_last {
+  padding-right: 0;
+}
+
+@media screen and (min-width: 767px) {
+  .nav__link {
+    font-size: 13px;
+    line-height: 1.23;
+  }
+}

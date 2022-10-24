@@ -1,0 +1,33 @@
+.link_main {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.link_type_signup {
+  margin-right: 14px;
+  color: #fff;
+}
+
+.link_type_signin {
+  padding: 7px 12px;
+  border: none;
+  border-radius: 3px;
+  color: #000;
+  background-color: #2be080;
+}
+
+@media screen and (min-width: 767px) {
+  .link_main {
+    font-size: 12px;
+    line-height: 1.33;
+  }
+
+  .link_type_signup {
+    margin-right: 30px;
+  }
+
+  .link_type_signin {
+    padding: 8px 20px;
+  }
+}

@@ -1,0 +1,23 @@
+.header_main {
+  margin: 0 auto;
+  padding: 18px 14px;
+  max-height: 74px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #073042;
+}
+
+@media screen and (min-width: 767px) {
+  .header_main {
+    padding: 18px 30px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .header_main {
+    padding: 18px 70px;
+  }
+}

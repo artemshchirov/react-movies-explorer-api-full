@@ -1,0 +1,119 @@
+.account {
+  padding: 70px 30px 40px;
+}
+
+.account__container {
+  display: flex;
+  flex-direction: column;
+  flex-direction: center;
+  align-items: center;
+}
+
+.account__form {
+  padding-top: 80px;
+  max-width: 410px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.account__input-container {
+  min-width: 260px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account__label {
+  margin: 0;
+  min-width: max-content;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.18;
+  color: #000;
+}
+
+.account__input {
+  margin-left: auto;
+  align-self: end;
+  width: 50%;
+  padding: 0;
+  /* max-width: min-content; */
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  font-size: 13px;
+  color: #000;
+  /* text-decoration: underline grey; */
+  text-align: right;
+}
+
+.account__input-container::after {
+  content: '';
+  width: 20px;
+  height: 12px;
+  background-image: url('../../images/edit-btn.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.account__divider {
+  margin: 16px 0 17px;
+  width: 100%;
+  height: 1px;
+  background-color: #e8e8e8;
+}
+
+.account__btns {
+  padding-top: 379px;
+  display: flex;
+  flex-direction: column;
+}
+
+.account__btn {
+  font-size: 14px;
+  line-height: 1.25;
+  color: #000;
+  background-color: transparent;
+}
+
+.account__btn_last {
+  padding-top: 16px;
+  color: #ee3465;
+}
+
+@media screen and (min-width: 767px) {
+  .account {
+    padding: 236px 179px 269px;
+  }
+
+  .account__form {
+    padding-top: 96px;
+  }
+
+  .account__btn {
+    font-size: 15px;
+    line-height: 1.23;
+  }
+
+  .account__btns {
+    padding-top: 210px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .account {
+    padding: 74px 435px 70px;
+  }
+
+  .account__form {
+    padding-top: 123px;
+  }
+
+  .account__btns {
+    margin-top: auto;
+    padding-top: 220px;
+  }
+}

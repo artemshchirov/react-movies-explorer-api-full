@@ -1,0 +1,12 @@
+.error-text {
+  height: 12px;
+  font-size: 10px;
+  line-height: 1.2;
+  color: #ee3465;
+}
+
+@media screen and (min-width: 767px) {
+  .error-text {
+    min-width: max-content;
+  }
+}

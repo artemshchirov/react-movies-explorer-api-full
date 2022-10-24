@@ -1,0 +1,21 @@
+.nav__link-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_movies {
+  display: none;
+}
+
+@media screen and (min-width: 1279px) {
+  .nav_movies {
+    padding-right: 29px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+}

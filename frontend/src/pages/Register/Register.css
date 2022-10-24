@@ -1,0 +1,23 @@
+.link_sign {
+  padding-top: 14px;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #a0a0a0;
+}
+
+.link_sign_type_colored {
+  padding-left: 7px;
+  color: #2be080;
+}
+
+@media screen and (min-width: 767px) {
+  .link_sign {
+    padding-top: 16px;
+    font-size: 14px;
+    line-height: 1.21;
+  }
+
+  .link_sign_type_colored {
+    padding-left: 6px;
+  }
+}

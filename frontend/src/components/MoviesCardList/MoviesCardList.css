@@ -1,0 +1,33 @@
+.movie-cards {
+  margin-top: 44px;
+  padding: 50px 0 30px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(auto-fit, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(168px, 1fr));
+  row-gap: 16px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.movie-cards__alert {
+  padding-top: 50px;
+  color: #000;
+  text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  .movie-cards {
+    margin-top: 109px;
+    padding-top: 80px;
+    row-gap: 36px;
+    column-gap: 30px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .movie-cards {
+    margin-top: 69px;
+    row-gap: 30px;
+    column-gap: 24px;
+  }
+}
